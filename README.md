@@ -9,3 +9,8 @@ docker run -it -p 4174:4173 --name front_test krisblinkova/frontend:latest
 npm run start
 
 Ваше приложение будет по адресу http://localhost:4174/
+
+для пересборки образа локально выполняем команду:
+Заходим в корень проекта (где лежит Dockerfile)
+
+docker build -t <имя image> .
