@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    color: #c9d1d9;
+    display: flex;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    background: #0d1117;
+    gap: 9px;
+    max-width: 696px;
+}
+
+.card:hover {
+    background: #161b22;
+    
+}
+.card a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 162%;
+    color: #8b949e;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: #58a6ff;
+  }
+
+.name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 162%;
+    color: #58a6ff;
+}
+
+.description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 164%;
+    color: #8b949e;
+}
+
+.update {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #8b949e;
+    gap: 3px;
+    
+}
+
+.stars {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #8b949e;
+    margin-right: 10px;
+}
+
