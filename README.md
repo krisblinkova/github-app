@@ -1,5 +1,5 @@
 ```
-React app test github-app
+#  Github-repos-app
 ```
 ## Как запустить проект в контейнере
 
