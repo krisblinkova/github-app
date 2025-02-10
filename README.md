@@ -7,3 +7,5 @@ docker run -it -p 4174:4173 --name front_test krisblinkova/frontend:latest
 
 Внутри контейнера
 npm run start
+
+Ваше приложение будет по адресу http://localhost:4174/
